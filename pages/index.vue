@@ -5,8 +5,8 @@
       <div class="container py-4">
         <div class="p-5 mb-4">
           <div class="container-fluid py-5">
-            <h3 class="display-5 fw-bold">SOMOS ESPECIALISTAS EN</h3>
-            <p class="col-md-8 fs-4">ESTRATEGIA LEGAL</p>
+            <h3 class="display-5 fw-bold">SOMOS <span class="text-white" style="background-color: black;">ESPECIALISTAS</span> EN</h3>
+            <h1 class="text-white">ESTRATEGIA LEGAL</h1>
             <button class="btn btn-primary btn-lg" type="button">Conócenos</button>
           </div>
         </div>
