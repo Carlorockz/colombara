@@ -1,0 +1,55 @@
+:root {
+    --bs-dark-rgb: rgb(0 0 0)!important;
+    --bs-bg-opacity: 1;
+}
+
+.navbar {
+    background-color: var(--bs-dark-rgb);
+}
+
+.first-section {
+    padding-top: 6rem;
+    background-color: #fee440;
+    background-image: url('~assets/animation.svg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-section {
+    padding-bottom: 0rem;
+}
+
+.contact-section {
+    background-color: #17a2b8;
+}
+svg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #17a2b8;
+    --bs-btn-hover-border-color: #17a2b8;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #000000;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
